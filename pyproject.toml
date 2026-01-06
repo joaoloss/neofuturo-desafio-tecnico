@@ -1,0 +1,12 @@
+[project]
+name = "neofuturo-desafio-tecnico"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.128.0",
+    "pandas>=2.3.3",
+    "pypdf>=6.5.0",
+    "python-multipart>=0.0.21",
+]
