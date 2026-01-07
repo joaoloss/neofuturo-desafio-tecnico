@@ -9,7 +9,7 @@ from src.config.settings import Settings
 
 class Item:
     """
-    Representing an item with personalized attributes used for similarity calculations.
+    Represents an item with personalized attributes used for similarity calculations.
     Attributes:
         id (str): Unique identifier for the item.
         origin_file (str): The file from which the item was ingested.
