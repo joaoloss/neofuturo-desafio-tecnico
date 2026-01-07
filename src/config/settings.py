@@ -8,6 +8,11 @@ class Settings:
     openai_api_key: str = os.getenv("OPENAI_API_KEY")
     llm_model_name: str = os.getenv("LLM_MODEL_NAME", "gpt-5-nano-2025-08-07")
 
+    # Empirically tested values for similarity calculation weights and threshold
+    similarity_threshold: float = 0.35
+    jaccard_weight: float = 1.30
+    levenshtein_weight: float = 0.70
+
     @staticmethod
     def config_logger(level=logging.DEBUG):
         logger = logging.getLogger("app")
