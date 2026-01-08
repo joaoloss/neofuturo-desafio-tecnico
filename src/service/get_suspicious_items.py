@@ -9,13 +9,13 @@ class GetSuspiciousItemsService:
     @staticmethod
     def find_suspicious_items_in_group(group_a_idx: int, group_b_idx: int) -> list[dict[str, str | float]]:
         """
-        Detects items currently assigned to group A that may be misclassified and should instead belong to group B..
+        Detects items currently assigned to group A that may be misclassified and should instead belong to group B.
 
         Args:
             group_a_idx (int): The index of the first group.
             group_b_idx (int): The index of the second group.
         Returns:
-            list[str]: List of system IDs of suspicious items.
+            list[dict[str, str | float]]: List of suspicious items with their system ID, similarity score of the item compared to group B, and description.
         """
 
         group_b = app_state.groups.get(group_b_idx)

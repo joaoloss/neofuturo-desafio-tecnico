@@ -1,7 +1,7 @@
 from time import time
 
-from src.config import logger, SELECTING_SIMILAR_ITEM_PROMPT, SIMILARITY_THRESHOLD
-from src.domain import Item, Group
+from src.config import logger, SELECTING_SIMILAR_ITEM_PROMPT, SIMILARITY_THRESHOLD, SIZE_CANDIDATES_GROUP_FOR_LLM_PROMPT
+from src.domain import Item
 from src.llm import LLM
 from src import app_state
 
@@ -38,12 +38,13 @@ class GroupingService:
                 group_idx = similar_items[0][0]
                 group_key_words = app_state.groups[group_idx].key_words
 
-                if not group_key_words or all(kw in group_key_words for kw in item.original_description): # Check if item has all key words of the group (if any)
+                count_key_words_in_item = sum(1 for kw in group_key_words if kw in item.original_description)
+                if not group_key_words or (count_key_words_in_item / len(group_key_words) >= 0.8): # In case of having key words, require at least 80% match (adjustable)
                     ask_llm = False
                     await app_state.add_to_group(group_idx, item)
 
             if ask_llm: # Use LLM to decide from candidates
-                num_similar = len(similar_items) if len(similar_items) < 4 else 4
+                num_similar = len(similar_items) if len(similar_items) < SIZE_CANDIDATES_GROUP_FOR_LLM_PROMPT else SIZE_CANDIDATES_GROUP_FOR_LLM_PROMPT
                 candidate_groups = item_scores[:num_similar+1] # Take top N similar groups
                 prompt = GroupingService._build_prompt(item, candidate_groups)
 

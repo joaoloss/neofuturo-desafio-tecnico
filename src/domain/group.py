@@ -34,15 +34,21 @@ class Group:
                 item.group_id = None
             return item
     
-    async def get_item_by_id(self, item_id: str) -> Item | None:
-        """Returns the item with the given ID if it exists in the group."""
+    async def get_item_by_id(self, system_item_id: str) -> Item | None:
+        """Returns the item with the given system ID if it exists in the group."""
         
         async with self.lock:
-            item = self.items.get(item_id)
-        return item
+            item = self.items.get(system_item_id)
+            return item
 
     async def add_key_words(self, key_words: list[str]):
+        """Adds key words to the group. Both original and stemmed versions are stored."""
+        
         key_words = [kw.strip().lower() for kw in key_words if kw.strip()]
+        stemmed_key_words = {Item.stemmer.stem(kw) for kw in key_words}
+
         async with self.lock:
             for kw in key_words:
                 self.key_words.add(kw)
+            for skw in stemmed_key_words:
+                self.key_words.add(skw)

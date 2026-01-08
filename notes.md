@@ -1,5 +1,4 @@
-1. Assumption: a given product will participate in one and only one group
-2. Improve speed by adding multithreading
-3. Improve documentation
-5. Showing metrics of latency when grouping items
-6. Add try/except
+1. Falar que é assumido que itens em um mesmo catálogo não são equivalentes entre sim
+2. Inserir fluxo
+3. Mostar como o gargalo de tempo está na chamada ao ML
+4. Realizar criação automática do grupo de palavras

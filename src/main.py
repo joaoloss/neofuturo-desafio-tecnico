@@ -91,7 +91,6 @@ async def change_item_group(item_id: str, new_group_idx: int, key_words: list[st
     
     return {"info": f"Item with system ID '{item_id}' moved to group {new_group_idx} successfully.", "suspicious_items": suspicious_items}
 
-
 @app.get("/groups/")
 async def get_groups(limit: int = 10, offset: int = 0, itens_per_group: int = 3):
     """Get paginated groups for inspection"""
