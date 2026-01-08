@@ -1,65 +1,29 @@
 from fastapi import FastAPI, UploadFile, BackgroundTasks
 from contextlib import asynccontextmanager
 from datetime import datetime
-import pandas as pd
 import os
 from pathlib import Path
-from threading import Lock
-import json
 from logging import DEBUG, INFO, WARNING, ERROR, CRITICAL
 
-from src.config import Settings, SELECTING_USEFUL_COLS_PROMPT
-from src.llm import LLM
-from src.domain import Item
-from src.grouping import GroupingWorker
-from src.state import app_state
+from src.config import logger
+from src.service import CSVItemCreatorService, GroupingService, GetSuspiciousItemsService
+from . import app_state
 
-logger = Settings.config_logger()
 storage_path = Path("ingested_files"); os.makedirs(storage_path, exist_ok=True)
 
-async def process_csv_file(file_path: Path):
-    df = pd.read_csv(file_path)
-    cols = set(df.columns)
-    cols_hash = hash(frozenset(cols))
+async def background_file_processing(file_path: Path) -> None:
+    """Background task to process uploaded CSV file."""
 
-    useful_cols = await app_state.get_cached_columns(cols_hash)
-    if useful_cols is None:
-        logger.debug(f"Cache miss for useful columns. Determining via LLM.")
-
-        cols = ", ".join(df.columns)
-        item = df.iloc[0].to_dict()
-        item = [f"- {k}: {v}" for k, v in item.items()]
-
-        prompt = SELECTING_USEFUL_COLS_PROMPT.format(
-            cols=", ".join(df.columns),
-            item="\n".join(item)
-        ).strip()
-
-        response = await LLM.execute(prompt)
-        useful_cols = response
-        await app_state.set_cached_columns(cols_hash, useful_cols)
+    if file_path.suffix.lower() == ".csv":
+        items = await CSVItemCreatorService.process_csv_file(file_path)
     else:
-        logger.debug(f"Cache hit for useful columns.")
+        logger.warning(f"Unsupported file type for file: {file_path}")
+        return
     
-    logger.debug(f"Cached useful columns for hash {cols_hash}: {useful_cols}")
-
-    id_col = useful_cols.split(",")[0].strip()
-    descriptive_cols = [col.strip() for col in useful_cols.split(",") if col.strip() != id_col]
-    
-    items_to_add = list()
-    for _, row in df.iterrows():
-        id_ = row.get(id_col, None)
-        descriptive_cols_data = [str(row[col]) for col in descriptive_cols if col in row]
-        item = Item(
-            descriptive_cols_data=descriptive_cols_data,
-            origin_file=str(file_path),
-            item_id=str(id_)
-        )
-        items_to_add.append(item)
-    
-    await GroupingWorker.group_items(items_to_add)
+    logger.debug(f"Processing {len(items)} items from file: {file_path}")
+    await GroupingService.group_items(items)
+    logger.debug(f"Completed processing for file: {file_path}")
         
-content_hashes = set(); content_hashes_lock = Lock()
 async def save_file(uploaded_file: UploadFile) -> Path | None:
     """
     Save uploaded file if its content is new (not a duplicate). Return file path if saved, else None.
@@ -83,28 +47,50 @@ async def lifespan(app: FastAPI):
 
     yield
 
-    # Dump groups into a JSON file for inspection
-    os.makedirs("dump", exist_ok=True)
-    output = dict()
-    for group_idx, items in app_state.groups.items():
-        output[group_idx] = [{"description": item.original_description, "item_id": item.id, "origin_file": item.origin_file} for item in items]
-    
-    with open("dump/groups.json", "w") as f:
-        json.dump(output, f, indent=4)
+    await app_state.dump("dump")
 
 app = FastAPI(lifespan=lifespan)
 
 @app.post("/uploadfile/")
 async def upload_file(file: UploadFile, background_tasks: BackgroundTasks):
-    
-    if file.filename.endswith(".csv"):
-        file_location = await save_file(file)
-        if file_location: # New file saved
-            background_tasks.add_task(process_csv_file, file_location)
+    """Endpoint to upload a file for processing."""
+
+    file_location = await save_file(file)
+    if file_location: # New file saved
+        background_tasks.add_task(background_file_processing, file_location)
         
-        return {"info": f"file '{file.filename}' received."}
-    else:
-        return {"error": "Only CSV files are supported."}
+    return {"info": f"file '{file.filename}' received."}
+
+@app.post("/changeitemgroup/")
+async def change_item_group(item_id: str, new_group_idx: int, key_words: list[str] = []):
+    """
+    Change the group of an item manually.
+
+    Args:
+        item_id (str): system ID of the item to move.
+        new_group_idx (str): Target group index to move the item to (-1 for new group).
+        key_words (list[str], optional): Important keywords that items of the new group should have.
+    """
+
+    old_group_idx = await app_state.change_item_group(item_id, new_group_idx)
+    if old_group_idx is None:
+        return {"info": f"Item with system ID '{item_id}' not found and/or target group with ID {new_group_idx} does not exist."}
+
+    if key_words:
+        # Add key words to the new group
+        target_group_idx = new_group_idx
+        if new_group_idx == -1:
+            # Get the newly created group ID
+            async with app_state.groups_lock:
+                target_group_idx = max(app_state.groups.keys())
+        
+        target_group = app_state.groups[target_group_idx]
+        await target_group.add_key_words(key_words)
+    
+    suspicious_items = GetSuspiciousItemsService.find_suspicious_items_in_group(old_group_idx, new_group_idx)
+    
+    return {"info": f"Item with system ID '{item_id}' moved to group {new_group_idx} successfully.", "suspicious_items": suspicious_items}
+
 
 @app.get("/groups/")
 async def get_groups(limit: int = 10, offset: int = 0, itens_per_group: int = 3):

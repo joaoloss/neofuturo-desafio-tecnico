@@ -1,8 +1,14 @@
 from .prompts import SELECTING_USEFUL_COLS_PROMPT, SELECTING_SIMILAR_ITEM_PROMPT
-from .settings import Settings
+from .settings import OPENAI_API_KEY, LLM_MODEL_NAME, SIMILARITY_THRESHOLD, JACCARD_WEIGHT, LEVENSHTEIN_WEIGHT
+from .logging import logger
 
 __all__ = [
     "SELECTING_USEFUL_COLS_PROMPT",
     "SELECTING_SIMILAR_ITEM_PROMPT",
-    "Settings"
+    "OPENAI_API_KEY",
+    "LLM_MODEL_NAME",
+    "SIMILARITY_THRESHOLD",
+    "JACCARD_WEIGHT",
+    "LEVENSHTEIN_WEIGHT",
+    "logger"
 ]

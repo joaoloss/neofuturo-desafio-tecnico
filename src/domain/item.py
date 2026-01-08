@@ -4,18 +4,21 @@ from nltk.stem import RSLPStemmer
 import random
 import Levenshtein
 from unidecode import unidecode
+from uuid import uuid4
 
-from src.config.settings import Settings
+from src.config import JACCARD_WEIGHT, LEVENSHTEIN_WEIGHT
 
 class Item:
     """
     Represents an item with personalized attributes used for similarity calculations.
     Attributes:
-        id (str): Unique identifier for the item.
+        system_id (str): System-generated unique identifier for the item.
+        original_id (str): Unique identifier for the item defined by the ingested file.
         origin_file (str): The file from which the item was ingested.
         original_description (str): The original textual description of the item.
         words_set (set): Set of unique stemmed words from the item's description for Jaccard distance calculations.
         unified_description (str): Unified stemmed description string for Levenshtein distance calculations.
+        group_id (int | None): The group ID to which the item belongs.
     """
 
     stemmer = RSLPStemmer()
@@ -25,11 +28,13 @@ class Item:
         complete_description = re.sub(r"\s+", " ", complete_description).strip().lower()
         stemmed_description = [self.stemmer.stem(word) for word in complete_description.split()]
 
-        self.id = item_id
+        self.system_id = str(uuid4())
+        self.original_id = item_id
         self.origin_file = origin_file
         self.original_description = complete_description
         self.words_set = set(stemmed_description)
         self.unified_description = "".join(stemmed_description)
+        self.group_id = None
     
     def compare_with_items(self, other_items: list["Item"]) -> list[float]:
         """
@@ -52,8 +57,8 @@ class Item:
         """
         Computes similarity score with another item.
         """
-        jaccard_weight = Settings.jaccard_weight
-        levenshtein_weight = Settings.levenshtein_weight
+        jaccard_weight = JACCARD_WEIGHT
+        levenshtein_weight = LEVENSHTEIN_WEIGHT
 
         jaccard_dist = Item._jaccard_distance(self.words_set, other_item.words_set)
         levenshtein_dist = Item._levenshtein_similarity(self.unified_description, other_item.unified_description)

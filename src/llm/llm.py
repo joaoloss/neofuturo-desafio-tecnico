@@ -1,10 +1,10 @@
 from openai import AsyncOpenAI
 
-from src.config.settings import Settings
+from src.config import OPENAI_API_KEY, LLM_MODEL_NAME
 
 class LLM:
-    api_key = Settings.openai_api_key
-    model_name = Settings.llm_model_name
+    api_key = OPENAI_API_KEY
+    model_name = LLM_MODEL_NAME
     client = AsyncOpenAI(api_key=api_key)
     
     @classmethod
