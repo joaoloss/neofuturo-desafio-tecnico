@@ -23,6 +23,8 @@ Os resultados mostraram-se bastante satisfatórios, especialmente quando se util
 
 #### Quando a métrica não é suficiente
 
+##### Modelo de linguagem
+
 Existem situações em que as métricas de similaridade textual, por si só, não são suficientes para tomar uma decisão confiável de agrupamento. Isso pode ocorrer, por exemplo, quando diferentes itens compartilham termos semelhantes, mas representam conceitos distintos, ou quando descrições semanticamente equivalentes apresentam baixa similaridade.
 
 Nesses casos, o sistema recorre a um modelo de linguagem para apoiar a decisão. Dado um item e um conjunto de itens candidatos (composto pelos mais similares), o modelo é utilizado para avaliar se o item deve ser associado a um grupo existente ou se a criação de um novo grupo é mais apropriada. Essa abordagem permite capturar relações semânticas mais sutis que não são plenamente refletidas pelas métricas de similaridade baseadas em string.
@@ -41,6 +43,16 @@ Nesse caso, embora o modelo de linguagem tenha sido acionado para apenas **15 do
 
 Esse exemplo reforça a necessidade de acionar o modelo de linguagem apenas quando estritamente necessário, bem como a importância de heurísticas eficientes para reduzir o número de chamadas sem comprometer a qualidade dos agrupamentos.
 
+##### Conjunto de palavras chave
+
+Outro ponto fraco das métricas aparece nos casos em que itens distintos compartilham descrições quase idênticas, diferindo apenas por termos altamente específicos (por exemplo, o nome de uma linha ou modelo).
+
+Para mitigar esse problema, cada grupo possui um conjunto de palavras-chave que o caracterizam de forma mais precisa. Essas palavras-chave funcionam como um sinal adicional de verificação: ao comparar um novo item com um grupo candidato, avalia-se se a descrição do item contém uma fração significativa (número ajustado) dessas palavras. Caso contrário, mesmo que a similaridade textual seja alta, o item não é automaticamente atribuído ao grupo (nesses casos, o modelo de linguagem é acionado).
+
+O [notebook de testes](./tests.ipynb) mostra tanto a dificuldade das métricas com esses casos quanto a performance do modelo de linguagem em identificar as palavras-chave dado um conjunto de itens equivalentes.
+
+**Nota**: como será visto adiante, atualmente a criação de palavras-chave associadas aos grupos ocorre apenas após intervenção manual humana. Porém, é evidente que esse processo pode ser aprimorado e automatizado, seja por meio do uso do modelo de linguagem, seja pela aplicação de técnicas estatísticas como [TF-IDF](https://pt.wikipedia.org/wiki/Tf%E2%80%93idf), uma abordagem que não foi explorada neste protótipo, mas que se mostra promissora dado o contexto do problema.
+
 ### Escolha e persistência de colunas relevantes
 
 Considerando que a entrada do sistema é um arquivo estruturado (representando um catálogo de itens) contendo uma tabela, surge um segundo desafio: identificar quais colunas são relevantes para descrever os itens. Para abordar esse problema, optou-se pela utilização de um modelo de linguagem. Como a tarefa é relativamente simples, foi escolhido um modelo pequeno e rápido; além disso, o nível de *reasoning* foi minimizado, reduzindo latência e custo.
@@ -53,7 +65,7 @@ Adicionalmente, para evitar chamadas redundantes ao modelo, foi criado um conjun
 
 Um endpoint dedicado foi projetado para permitir intervenção humana no processo de agrupamento, possibilitando a correção manual de decisões tomadas automaticamente pelo algoritmo. A principal motivação é reconhecer que, apesar da eficácia das métricas de similaridade e do uso pontual de modelos de linguagem, casos ambíguos ou específicos do domínio podem exigir validação humana.
 
-Por meio do endpoint, é possível mover manualmente um item de um grupo para outro, ou ainda forçar a criação de um novo grupo. Opcionalmente, o usuário pode fornecer uma lista de *keywords* relevantes, que passam a caracterizar o grupo de destino. Essas palavras-chave são utilizadas como sinais adicionais em análises futuras, ajudando a reforçar a identidade semântica do grupo.
+Por meio do endpoint, é possível mover manualmente um item de um grupo para outro, ou ainda forçar a criação de um novo grupo. Opcionalmente, o usuário pode fornecer uma lista de palavras-chave relevantes, que passam a caracterizar o grupo de destino. Essas palavras-chave são utilizadas como sinais adicionais em análises futuras, ajudando a reforçar a identidade semântica do grupo.
 
 Após a realocação do item, o sistema executa uma etapa de verificação para identificar itens potencialmente mal posicionados. Essa verificação analisa os itens do grupo de origem em relação ao grupo de destino, buscando casos em que outros itens possam ter sido afetados pela correção manual e também devam ser reconsiderados. Os itens considerados suspeitos são retornados na resposta do endpoint.
 
@@ -129,6 +141,6 @@ Como o algoritmo é apenas um protótipo, é importante pontuar limitações/mel
 1. Tratativa de erros.
 2. Suporte para mais tipos de arquivo.
 3. Armazenamento em memória: para simplificar o desenvolvimento e acelerar testes, optou-se por não utilizar um SGBD. Todo o estado da aplicação é mantido em memória e, portanto, é perdido após o encerramento do programa. Uma evolução natural seria a persistência dos dados em um banco de dados.
-4. Atualmente, a criação de *keywords* associadas aos grupos ocorre apenas após intervenção manual humana. É possível evoluir esse mecanismo para uma abordagem mais dinâmica, em que as *keywords* sejam automaticamente inferidas a partir dos termos mais frequentes ou mais representativos dos itens de cada grupo.
+4. Atualmente, a criação de palavras-chave associadas aos grupos ocorre apenas após intervenção manual humana. É possível evoluir esse mecanismo para uma abordagem mais dinâmica, em que as palavras-chave sejam automaticamente inferidas a partir dos termos mais frequentes ou mais representativos dos itens de cada grupo.
 5. Estratégias de encurtamento de descrições (removendo palavras irrelevantes ou pouco significativas) podem se mostrar essencias pensando em escalabilidade.
 6. Os pesos das métricas de similaridade e os *thresholds* foram definidos empiricamente. Uma possível melhoria seria automatizar esse processo por meio de validação com dados rotulados, otimização de hiperparâmetros ou técnicas adaptativas que ajustem esses valores ao longo do tempo.
