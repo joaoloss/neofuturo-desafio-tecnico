@@ -1,7 +1,9 @@
 import logging
 import sys
 
-def config_logger(level=logging.DEBUG):
+from . import LOGGER_LEVEL
+
+def config_logger(level: logging._Level) -> logging.Logger:
     logger = logging.getLogger("app")
     if logger.handlers:
         return logger # already configured
@@ -19,4 +21,4 @@ def config_logger(level=logging.DEBUG):
 
     return logger
 
-logger = config_logger()
+logger = config_logger(LOGGER_LEVEL)

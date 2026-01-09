@@ -3,7 +3,6 @@ from contextlib import asynccontextmanager
 from datetime import datetime
 import os
 from pathlib import Path
-from logging import DEBUG, INFO, WARNING, ERROR, CRITICAL
 
 from src.config import logger
 from src.service import CSVItemCreatorService, GroupingService, GetSuspiciousItemsService

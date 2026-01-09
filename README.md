@@ -31,6 +31,16 @@ Dessa forma, o modelo de linguagem atua como uma etapa complementar ao algoritmo
 
 O [notebook de testes](./tests.ipynb) mostra que mesmo um modelo pequeno, barato e com *reasoning* minimizado foi extremamente preciso.
 
+É interessante notar que as chamadas ao modelo de linguagem representam o principal gargalo de desempenho do sistema. Esse impacto pode ser claramente observado no seguinte exemplo de execução:
+
+```
+[INFO - 2026-01-08 21:53:13,398] Grouped 52 items in 39.70 seconds. LLM latency: 39.69 seconds. LLM usage: 15/52.
+```
+
+Nesse caso, embora o modelo de linguagem tenha sido acionado para apenas **15 dos 52 itens processados**, praticamente **todo o tempo total de execução** (39,69s de 39,70s) foi consumido pelas chamadas ao LLM. Isso evidencia que a latência associada ao modelo domina o custo computacional do pipeline, enquanto as etapas baseadas em métricas de similaridade textual possuem impacto praticamente desprezível no tempo total.
+
+Esse exemplo reforça a necessidade de acionar o modelo de linguagem apenas quando estritamente necessário, bem como a importância de heurísticas eficientes para reduzir o número de chamadas sem comprometer a qualidade dos agrupamentos.
+
 ### Escolha e persistência de colunas relevantes
 
 Considerando que a entrada do sistema é um arquivo estruturado (representando um catálogo de itens) contendo uma tabela, surge um segundo desafio: identificar quais colunas são relevantes para descrever os itens. Para abordar esse problema, optou-se pela utilização de um modelo de linguagem. Como a tarefa é relativamente simples, foi escolhido um modelo pequeno e rápido; além disso, o nível de *reasoning* foi minimizado, reduzindo latência e custo.
@@ -49,6 +59,27 @@ Após a realocação do item, o sistema executa uma etapa de verificação para 
 
 Dessa forma, o endpoint não apenas permite a correção pontual de um erro, mas também promove um ciclo de feedback humano no processo de agrupamento, auxiliando na identificação de inconsistências e contribuindo para a melhoria contínua da qualidade dos grupos ao longo do tempo.
 
+## 🔄 Fluxo geral do algoritmo
+
+1. Leitura do arquivo estruturado (CSV) e seleção automática das colunas relevantes.
+2. Criação de itens a partir das descrições normalizadas.
+3. Cálculo de similaridade entre o novo item e itens já agrupados.
+4. Atribuição automática a um grupo existente (ou criação de um novo grupo) por meio de métricas de similaridade e, quando necessário, do uso de um modelo de linguagem.  
+   - **Obs.**: um pressuposto importante é que itens provenientes de um mesmo catálogo não são equivalentes entre si. Esse fato é especialmente relevante durante a inicialização, quando cada item do primeiro catálogo origina um novo grupo.
+5. Possibilidade de intervenção humana para correção manual e refinamento dos grupos.
+6. Reavaliação de itens potencialmente impactados após intervenções manuais.
+
+Sobre a implementação, o estado global da aplicação é mantido em memória e protegido por locks assíncronos, garantindo consistência em cenários de acesso concorrente à API.
+
+## 🌐 API
+
+A aplicação expõe uma API REST construída com para:
+- ingestão de arquivos CSV;
+- intervenção humana para correção de grupos;
+- inspeção do estado atual dos agrupamentos.
+
+**Nota**: após iniciar a aplicação, a documentação interativa pode ser acessada em: `/docs`.
+
 ## 📂 Estrutura do projeto
 
 - **Arquivos na raiz**
@@ -56,7 +87,7 @@ Dessa forma, o endpoint não apenas permite a correção pontual de um erro, mas
   - `desc.md`: descrição detalhada do desafio proposto.
   - `pyproject.toml`, `.python-version` e `uv.lock`: arquivos de configuração do ambiente e dependências.
   - `tests.ipynb`: notebook contendo experimentos e resultados a partir dos quais decisões técnicas foram tomadas.
-  - `dump/`: diretório utilizado para persistir o estado dos agrupamentos para inspeção após encerrar a API.
+  - `dump/`: diretório utilizado para persistir o estado final dos agrupamentos para inspeção após encerrar a API.
   - `exemplos/`: arquivos CSV de exemplo, representando catálogos de diferentes fornecedores.
 
 - **src/**

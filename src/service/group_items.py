@@ -39,7 +39,7 @@ class GroupingService:
                 group_key_words = app_state.groups[group_idx].key_words
 
                 count_key_words_in_item = sum(1 for kw in group_key_words if kw in item.original_description)
-                if not group_key_words or (count_key_words_in_item / len(group_key_words) >= 0.8): # In case of having key words, require at least 80% match (adjustable)
+                if len(group_key_words) == 0 or (count_key_words_in_item / len(group_key_words) >= 0.8): # In case of having key words, require at least 80% match (adjustable)
                     ask_llm = False
                     await app_state.add_to_group(group_idx, item)
 

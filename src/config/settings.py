@@ -1,6 +1,5 @@
 import os
-import logging
-import sys
+from logging import DEBUG, INFO, WARNING, ERROR, CRITICAL
 from dotenv import load_dotenv; load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
@@ -11,3 +10,5 @@ JACCARD_WEIGHT = 1.30
 LEVENSHTEIN_WEIGHT = 0.70
 
 SIZE_CANDIDATES_GROUP_FOR_LLM_PROMPT = 5
+
+LOGGER_LEVEL = DEBUG
