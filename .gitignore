@@ -2,3 +2,4 @@
 .env
 __pycache__/
 ingested_files/
+notes.md

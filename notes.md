@@ -1,1 +1,3 @@
-3. Mostar como o gargalo de tempo está na chamada ao ML
+1. Testar modelo aprendendo através de palavras-chave
+2. Acrescentar processamento de PDFs
+3. Pensar em uma forma simples de preencher automaticamente keywords
