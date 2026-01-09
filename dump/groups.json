@@ -2,615 +2,865 @@
     "0": [
         {
             "description": "notebook dell inspiron 15 8gb dell notebook 15 polegadas intel core i5 8gb ram 256gb ssd",
-            "system_item_id": "87b14d11-eb94-4665-b57a-25cb153c8f03",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "2dc9aa6b-c851-4357-b910-2f2642487fac",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "notebook inspiron 15 8gb intel i5 dell 15.6\" intel core i5 8gb ram ssd 256gb windows 11",
-            "system_item_id": "2d08a7c9-7334-41ba-9e77-2daf1067cc3e",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "a6c9f8ae-6e8e-44b5-b508-3634512de46f",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "notebook dell inspiron 15 8gb dell notebook 15 polegadas intel core i5 8gb ram 256gb ssd",
+            "system_item_id": "502ea4ff-5ead-4986-a24e-056548d541ff",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "1": [
         {
             "description": "papel a4 500 folhas branco chamex papel sulfite branco 500 folhas 75g/m2",
-            "system_item_id": "8dd7b62a-44da-4ff8-bf83-a3cf732886e2",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "2c25cdb2-7ce1-4769-8291-97c8102b5955",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "papel a4 500fls branco 75g chamex sulfite a4 branco 500 folhas gramatura 75g/m2",
-            "system_item_id": "f20cc791-428a-4980-802a-c9390a501288",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "3b8dc0cf-a2b7-438f-9548-4a006c94496e",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "papel a4 500 folhas branco chamex papel sulfite branco 500 folhas 75g/m2",
+            "system_item_id": "385fc9a3-4dec-4f7e-8fb0-d494c7169751",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "2": [
         {
             "description": "caneta bic azul bic caneta esferografica azul ponta media",
-            "system_item_id": "1b1e1fd1-f78f-4319-9470-c52a25bc5336",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "acd3999f-61fb-4999-83b9-dd5a98d33bda",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "caneta bic azul ponta media bic esferografica azul ponta media corpo transparente",
-            "system_item_id": "92a3e9e8-2c0d-4090-96b9-2b0c04de7c89",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "983635e5-0e08-4bc1-b9bf-3f68775927c2",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "caneta bic azul bic caneta esferografica azul ponta media",
+            "system_item_id": "d4d30eda-66ab-4b4f-b51f-16fa0851bb65",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "3": [
         {
             "description": "monitor lg 24 polegadas full hd lg monitor led 24\" full hd 1920x1080 hdmi vga",
-            "system_item_id": "b6323c94-aef0-4bd2-b6e9-d21f84c917ce",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "ca1d770b-e538-45d2-90d4-c65aa8bd0893",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "monitor lg 24\" full hd lg led 24 polegadas resolucao 1920x1080 hdmi vga displayport",
-            "system_item_id": "dac5fa34-bbfa-4ce5-b294-255fc531a1d2",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "a0b70b71-964e-485d-adc3-e5f423b67031",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "monitor lg 24 polegadas full hd lg monitor led 24\" full hd 1920x1080 hdmi vga",
+            "system_item_id": "70aeb1ee-fd57-4b15-a4a7-25376f6eae4b",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "4": [
         {
             "description": "mesa escritorio retangular 120cm allma mesa escritorio retangular mdf 120x60cm branca",
-            "system_item_id": "d81100c6-d7f9-4496-872b-4d45b43b3a0d",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "96babf6a-a1dd-4045-921c-d1d515233661",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "mesa escritorio 120x60cm allma retangular mdf branca 120cm largura 60cm profundidade",
-            "system_item_id": "25fb8f02-7b2f-42b9-add4-28eea8397396",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "5c05bf43-a2f4-4239-afa2-28cded907d6c",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "mesa escritorio retangular 120cm allma mesa escritorio retangular mdf 120x60cm branca",
+            "system_item_id": "add0c9ed-93ee-466b-8740-ad47cb77a770",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "5": [
         {
             "description": "cadeira escritorio ergonomica allma cadeira ergonomica com apoio lombar e bracos ajustaveis",
-            "system_item_id": "9443f129-e139-4cd1-996e-60657f6b5ce3",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "0fec5068-4816-4869-b85d-dd5a26f3f1a5",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "cadeira escritorio ergonomica allma allma ergonomica apoio lombar bracos ajustaveis rodizios",
-            "system_item_id": "849c5a75-012d-4b3a-8f30-0193062c7e0d",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "ccbe66dd-441e-4e46-9a1a-fac7e399c382",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "cadeira escritorio ergonomica allma cadeira ergonomica com apoio lombar e bracos ajustaveis",
+            "system_item_id": "629bcf2e-d261-40f3-aaa3-3edcefe5415f",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "6": [
         {
             "description": "impressora hp laserjet pro hp impressora laser monocromatica 1200x1200dpi usb wi-fi",
-            "system_item_id": "f2ab8bba-987f-47e6-b12b-cca8ddc1ee89",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "a1aae441-9ca0-47d8-9f00-278a6a3ca6c6",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "impressora laser hp pro m15w hp laser monocromatica 1200dpi usb wi-fi impressao rapida",
-            "system_item_id": "fd47fdd1-7e20-49fc-91a0-2ce7e98d321c",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "506d27e0-2251-4493-acbe-38881aeee758",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "impressora hp laserjet pro hp impressora laser monocromatica 1200x1200dpi usb wi-fi",
+            "system_item_id": "11deeed7-0760-43a1-9ef0-a53f1702794b",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "7": [
         {
             "description": "teclado logitech usb logitech teclado usb padrao abnt2 portugues",
-            "system_item_id": "1ae24102-05c2-406e-b9c7-c7a2295b1193",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "9b8fdb7f-e5a9-4103-9fab-2734f3a52089",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "teclado usb logitech abnt2 logitech usb padrao brasileiro abnt2 portugues layout",
-            "system_item_id": "d5fc9b16-d4c5-497d-adbd-0009e5eddfb6",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "459d425c-53f4-4c72-a122-504f7162341b",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "teclado logitech usb logitech teclado usb padrao abnt2 portugues",
+            "system_item_id": "673de86d-bd8b-4078-bdd9-18ddb141e58a",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "8": [
         {
             "description": "mouse optico logitech logitech mouse optico usb 1000dpi 3 botoes",
-            "system_item_id": "f24b72ff-03a4-4c15-a1f2-2eff274429a8",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "3fc49914-6b73-48ab-973a-393a2404a09a",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "mouse usb logitech optico logitech optico usb 1000dpi 3 botoes scroll",
-            "system_item_id": "3068b289-13fe-4cfc-a67d-2149ec20fcf2",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "dbf8c5d4-726d-40eb-a7be-65b1c043b888",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "mouse optico logitech logitech mouse optico usb 1000dpi 3 botoes",
+            "system_item_id": "d6310cc2-9d25-4129-ba03-b9aa543e180f",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "9": [
         {
             "description": "hd externo 1tb seagate seagate hd externo usb 3.0 1tb portatil",
-            "system_item_id": "f4b81e6b-bf48-4e96-95aa-07a3e83dc4d8",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "b5b53fb5-0dc8-4dee-8414-02b4aa2b3791",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "hd externo seagate 1tb usb 3.0 seagate externo portatil usb 3.0 1tb preto compacto",
-            "system_item_id": "a3758272-348d-4386-a71d-fc527e1fe6e7",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "fec289b9-7abd-4aec-bfb4-8c769c65233d",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "hd externo 1tb seagate seagate hd externo usb 3.0 1tb portatil",
+            "system_item_id": "96da11b9-86fc-4182-9aa5-70357ca7aec6",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "10": [
         {
             "description": "smartphone samsung galaxy a54 samsung smartphone 128gb 6gb ram 6.4\" android 13",
-            "system_item_id": "f52e93ee-01a9-4e1b-8789-8d547a005a4a",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "fa570183-e495-4b1f-a062-04039fd84d4c",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "smartphone galaxy a54 128gb samsung 128gb 6gb ram 6.4\" tela super amoled android 13",
-            "system_item_id": "7d832f65-8738-43eb-aaed-60ab791640dd",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "2448c1ee-ecfc-43ed-8a7f-30d7f0f8de8f",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "smartphone samsung galaxy a54 samsung smartphone 128gb 6gb ram 6.4\" android 13",
+            "system_item_id": "f943c8a0-48b3-410f-a2fb-2822828962f1",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "11": [
         {
             "description": "fone de ouvido jbl tws jbl fone de ouvido bluetooth true wireless com case",
-            "system_item_id": "d725e18a-a909-440c-b628-ff1a0b91f115",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "2a57fd27-c103-47b3-8c2b-73aff2b30660",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "fone jbl true wireless tws jbl bluetooth true wireless com case carregamento",
-            "system_item_id": "a7df0bbe-13f8-47a2-8636-ee284d0c1459",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "c5368213-a50d-46d3-b106-cc680af36093",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "fone de ouvido jbl tws jbl fone de ouvido bluetooth true wireless com case",
+            "system_item_id": "dd2c3bd3-c261-4594-b9ba-ff6ca9e3f9a6",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "12": [
         {
             "description": "caixa de som jbl go 3 jbl caixa de som bluetooth portatil a prova d'agua",
-            "system_item_id": "fb782d07-7716-4102-9290-5bfdaf2be5fb",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "302ce42a-d357-4770-ae84-a0ca84dd4a83",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "caixa som jbl go 3 bluetooth jbl bluetooth portatil a prova d'agua ipx7 potencia",
-            "system_item_id": "4d9d1127-7ab4-4964-8eec-7232f7701672",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "169df269-14a1-4cc2-bec3-b1605f5ed667",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "caixa de som jbl go 3 jbl caixa de som bluetooth portatil a prova d'agua",
+            "system_item_id": "8a846e39-08be-4df0-9135-0c7ee30764fe",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "13": [
         {
             "description": "carregador usb-c 65w samsung samsung carregador rapido usb-c 65w com cabo",
-            "system_item_id": "fa553271-619c-464e-89f4-09e921e1570b",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "aff1da77-e30a-453a-8a7e-e1aaefe0a9bb",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "carregador samsung 65w usb-c samsung rapido usb-c 65w com cabo 1.5m branco",
-            "system_item_id": "3d2ed0b4-fdc6-4d25-839a-70a39ee02a24",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "b26f0ba0-5f9b-4c58-a68a-1a008ae09098",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "carregador usb-c 65w samsung samsung carregador rapido usb-c 65w com cabo",
+            "system_item_id": "6b996dc8-5fff-4400-9128-45a0656016fe",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "14": [
         {
             "description": "suporte notebook ergonomico allma suporte para notebook ajustavel aluminio ate 17\"",
-            "system_item_id": "c9f8e75e-8ec9-4acc-89b0-b4988cb3da5d",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "c247f6e5-73ae-47a5-9956-1488fa381934",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "suporte notebook aluminio allma ajustavel aluminio suporta ate 17 polegadas altura",
-            "system_item_id": "06bed493-7c68-4fd0-b970-01509c722909",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "f8f55529-2237-4a8c-9882-6f57f395d7f9",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "suporte notebook ergonomico allma suporte para notebook ajustavel aluminio ate 17\"",
+            "system_item_id": "34c8be19-c309-44bf-9556-7d142678cd21",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "15": [
         {
             "description": "papel a4 500 folhas reciclado chamex papel sulfite reciclado 500 folhas 75g/m2",
-            "system_item_id": "8a6323ab-8af1-48a5-a865-384433f17554",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "a621b84a-42b9-43c7-b2c4-c6d4a3c9e988",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "papel a4 500 folhas reciclado chamex chamex sulfite reciclado a4 500 folhas 75g/m2",
-            "system_item_id": "71383637-dadb-469c-9bcb-8c944f830fb7",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "1ec3c2b1-a99a-46f2-82dd-5d3f6891f446",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "papel a4 500 folhas reciclado chamex papel sulfite reciclado 500 folhas 75g/m2",
+            "system_item_id": "db464ad1-0b59-4ba8-82fb-abf71c5741a4",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "16": [
         {
             "description": "caneta bic preta bic caneta esferografica preta ponta media",
-            "system_item_id": "5816501d-3064-4dd9-9109-c489658c65b3",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "c530eb11-e75d-40b3-9650-972fb590fbf5",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "caneta bic preta media bic esferografica preta ponta media corpo transparente",
-            "system_item_id": "c3dbd91a-eb30-4489-98cf-c31cbe50cc2d",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "941e2a27-e707-4bff-b040-fbaacb602bde",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "caneta bic preta bic caneta esferografica preta ponta media",
+            "system_item_id": "1e3bdde3-860f-4a27-9e34-d6a681d16b0a",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "17": [
         {
             "description": "caneta bic vermelha bic caneta esferografica vermelha ponta media",
-            "system_item_id": "f7f1c4ac-0325-466d-b3f3-34bfb10f2e9e",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "b0aeda95-b30f-4007-9498-52c1df4297ad",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "caneta bic vermelha media bic esferografica vermelha ponta media corpo transparente",
-            "system_item_id": "db0240cb-48f2-4d19-8c92-559f9a83bba3",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "cff8080f-8646-417a-ae30-90bb6fea446d",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "caneta bic vermelha bic caneta esferografica vermelha ponta media",
+            "system_item_id": "c856ad8c-dc64-46d1-bb61-afee021f9979",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "18": [
         {
             "description": "notebook lenovo ideapad 3 lenovo notebook 15.6\" amd ryzen 5 8gb ram 256gb ssd",
-            "system_item_id": "8e3fda1b-fde6-4ad6-9c7e-eb0230ec43a0",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "9d36f85a-12e4-4138-bd06-8a802ee0fb5a",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "notebook ideapad 3 lenovo 15.6\" lenovo 15.6\" amd ryzen 5 8gb ram ssd 256gb windows 11",
-            "system_item_id": "6b7aa32f-08be-4043-abdb-cf3a0fa2b463",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "b41d2114-5b03-46af-a545-a686d40fd4d2",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "notebook lenovo ideapad 3 lenovo notebook 15.6\" amd ryzen 5 8gb ram 256gb ssd",
+            "system_item_id": "86f16fd3-2ec7-4bba-a9dd-36f7b6b403f6",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "19": [
         {
             "description": "monitor samsung 27 polegadas 4k samsung monitor led 27\" 4k uhd 3840x2160 hdmi displayport",
-            "system_item_id": "cffd50d4-52c4-421b-81df-d21b5e934eb6",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "345409e9-7d8f-416f-a51e-63e63764e2f6",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "monitor samsung 27\" 4k uhd samsung led 27 polegadas 4k resolucao 3840x2160 hdmi dp",
-            "system_item_id": "4da1f341-bc34-4367-8d02-c7e386808046",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "c3bad8ce-4c82-4cbb-89f3-644299e6e0cc",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "monitor samsung 27 polegadas 4k samsung monitor led 27\" 4k uhd 3840x2160 hdmi displayport",
+            "system_item_id": "ae1bf1e1-8979-4337-b532-095099500809",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "20": [
         {
             "description": "impressora epson ecotank epson impressora jato de tinta tanque de tinta colorida wi-fi",
-            "system_item_id": "67fafe38-b15e-426c-a120-2f3055901c94",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "f5c94a2f-12e0-4d3e-b053-75ab66b816b7",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "impressora epson ecotank l3150 epson jato de tinta tanque colorida wi-fi scanner",
-            "system_item_id": "2308f61e-d572-4eac-9658-8dde70cc944a",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "c17d50ce-c48d-463f-be51-1c82431bfd73",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "impressora epson ecotank epson impressora jato de tinta tanque de tinta colorida wi-fi",
+            "system_item_id": "51471012-0cf0-413a-9364-08e65e34594c",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "21": [
         {
             "description": "mesa escritorio l 140cm allma mesa escritorio formato l mdf 140x70cm preta",
-            "system_item_id": "b3c02655-8596-4997-b35b-f48927940b01",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "4a222778-ee5a-40ed-a462-7085a6b56405",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "mesa escritorio formato l 140cm allma formato l mdf preta 140cm largura 70cm profundidade",
-            "system_item_id": "43bee597-259b-4262-a677-345eff69e477",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "3c046873-7ee0-486c-948d-c88e4ff61201",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "mesa escritorio l 140cm allma mesa escritorio formato l mdf 140x70cm preta",
+            "system_item_id": "77112369-1eaa-4dd1-b20e-01295d49526e",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "22": [
         {
             "description": "cadeira gamer rgb allma cadeira gamer com iluminacao rgb e apoio para pescoco",
-            "system_item_id": "f86ad85a-0acc-43f4-be82-68f5fc2e859c",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "d57ed94c-0c38-4bfa-95b4-c7a98ee2d841",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "cadeira gamer rgb allma allma gamer iluminacao rgb apoio pescoco lombar ajustavel",
-            "system_item_id": "5286ca33-5f13-4172-bee7-4e71ae2da175",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "85437d8f-f4a6-4fb2-8bba-29933e122c88",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "cadeira gamer rgb allma cadeira gamer com iluminacao rgb e apoio para pescoco",
+            "system_item_id": "7aba46e2-5eb8-49f1-b76f-23c59321c303",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "23": [
         {
             "description": "teclado mecanico rgb logitech teclado mecanico rgb retroiluminado switches gx blue",
-            "system_item_id": "5bae6f4f-2e6f-4655-bfe5-a6c1f2376c95",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "500667a8-b1b7-4561-a8d3-f748d3720aff",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "teclado mecanico rgb logitech g pro logitech mecanico rgb retroiluminado switches mecanicos gx",
-            "system_item_id": "f5a6fd61-7309-45e2-87c8-5106ada4ea23",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "afc02b59-4254-420a-9c24-b4650c466424",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "teclado mecanico rgb logitech teclado mecanico rgb retroiluminado switches gx blue",
+            "system_item_id": "b58775d9-a30d-4033-9c18-3854cd8de70d",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "24": [
         {
             "description": "mouse gamer rgb 16000dpi logitech mouse gamer rgb 16000dpi 6 botoes programaveis",
-            "system_item_id": "5b2aa4c3-2838-4e04-ad4a-6bda8ba0a611",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "cbd48805-ae09-4942-8a27-7dc8139829c2",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "mouse gamer rgb logitech 16000dpi logitech gamer rgb 16000dpi 6 botoes programaveis peso",
-            "system_item_id": "07b1085f-bba1-4819-914c-b90d48f8d534",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "cb12c99e-8af4-4bec-b88d-6cdbcc794a5e",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "mouse gamer rgb 16000dpi logitech mouse gamer rgb 16000dpi 6 botoes programaveis",
+            "system_item_id": "cc9106da-e903-4dc6-b529-e33f683602d8",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "25": [
         {
             "description": "webcam logitech c920 hd logitech webcam full hd 1080p 30fps com microfone integrado",
-            "system_item_id": "9f48c1e5-40bf-44ed-a6ce-aeef27d2053b",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "13757a51-26c4-486b-bb14-4a1da8f2c68e",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "webcam logitech c920 full hd logitech full hd 1080p 30fps microfone estereo integrado",
-            "system_item_id": "d835b01f-831b-41e5-9fb6-7bc9cded2753",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "92b18a92-9b38-467d-82e7-3df35c1b6dc4",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "webcam logitech c920 hd logitech webcam full hd 1080p 30fps com microfone integrado",
+            "system_item_id": "6fb709ec-86a8-4b4b-adec-6fcfd89516b6",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "26": [
         {
             "description": "ssd 500gb kingston kingston ssd sata iii 500gb 2.5\" leitura 550mb/s escrita 520mb/s",
-            "system_item_id": "1a7957dd-721c-47ea-b4dc-99f178098931",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "f14716e8-fa75-4f72-8367-374009118a7f",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "ssd kingston 500gb sata kingston sata iii 2.5\" 500gb leitura 550mb/s escrita 520mb/s",
-            "system_item_id": "95efdd45-a412-4e4b-9507-1aed163f4197",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "74a3d6c4-90e5-4e9d-b65e-84e264eb0f4e",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "ssd 500gb kingston kingston ssd sata iii 500gb 2.5\" leitura 550mb/s escrita 520mb/s",
+            "system_item_id": "cc1c3cf3-d9aa-4ed0-b4f2-4754bdfddef7",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "27": [
         {
             "description": "memoria ram 8gb ddr4 kingston kingston memoria ram ddr4 8gb 2666mhz notebook",
-            "system_item_id": "bf06e553-fa5c-4064-af62-f6b7acb52daa",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "7bd9321e-2304-4086-b713-cdc7a588f3e1",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "memoria ram kingston 8gb ddr4 kingston ddr4 8gb 2666mhz notebook sodimm compativel",
-            "system_item_id": "2ae5cfe0-b861-4114-9da4-21d7bb90174d",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "df05a094-2b5e-4a72-ba5c-52d048cfba38",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "memoria ram 8gb ddr4 kingston kingston memoria ram ddr4 8gb 2666mhz notebook",
+            "system_item_id": "00140afa-444f-4ae0-9f78-d7d43d8d9426",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "28": [
         {
             "description": "hd interno 1tb western digital western digital hd interno 3.5\" sata iii 7200rpm 1tb",
-            "system_item_id": "c7d44071-385b-4880-90a3-c9116c94490c",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "c3b8d371-bbf5-40bd-a072-d633874041ec",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "hd interno wd 1tb 3.5\" western digital interno 3.5\" sata iii 7200rpm 1tb cache 64mb",
-            "system_item_id": "55c5f8b8-7c81-41ca-a2fa-c9f9d9a4f7f4",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "85289d28-6f5c-4a41-908f-2ff9ea0fbd27",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "hd interno 1tb western digital western digital hd interno 3.5\" sata iii 7200rpm 1tb",
+            "system_item_id": "ff761fcd-f6c2-42b6-b8fe-7a5c507f57a1",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "29": [
         {
             "description": "tablet samsung galaxy tab a9 samsung tablet 8.7\" 64gb wi-fi android 13",
-            "system_item_id": "9a971780-e9e7-4d1a-a07b-c537e89c5b37",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "40ca6cc9-7de3-4d2b-8c91-f66399bac46e",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "tablet galaxy tab a9 8.7\" samsung samsung 8.7\" 64gb wi-fi android 13 tela hd processador",
-            "system_item_id": "bdebd7c5-74bf-4c2b-84de-b4dacb334412",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "da539c20-498b-4226-8b98-077e881b386a",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "tablet samsung galaxy tab a9 samsung tablet 8.7\" 64gb wi-fi android 13",
+            "system_item_id": "c9a71f34-4d24-4cfc-8e81-a826a7845923",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "30": [
         {
             "description": "fone de ouvido sony wh-1000xm4 sony fone de ouvido over-ear bluetooth com cancelamento de ruido",
-            "system_item_id": "c0007544-b2c3-4c15-bfdb-6f5d26dcf520",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "c6d6bfbc-b119-44e7-800b-758f28d46891",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
         },
         {
             "description": "fone over-ear sony wh1000xm4 sony over-ear bluetooth cancelamento ruido ativo bateria",
-            "system_item_id": "1e2235e5-b4ee-4418-99db-1a795eeb4dab",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "d7615ffb-190f-4d97-818f-786f972cfdb7",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
+        },
+        {
+            "description": "fone de ouvido sony wh-1000xm4 sony fone de ouvido over-ear bluetooth com cancelamento de ruido",
+            "system_item_id": "1a7100d3-9a88-45b2-bc6b-834c31cbe76a",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         }
     ],
     "31": [
         {
             "description": "caixa de som bluetooth jbl flip 6 jbl caixa de som bluetooth portatil stereo 30w",
-            "system_item_id": "8efd6c77-e55f-4e72-8c23-529e70885089",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "42acdac4-abbd-4950-b586-697f85a0aef9",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "caixa de som bluetooth jbl flip 6 jbl caixa de som bluetooth portatil stereo 30w",
+            "system_item_id": "85a654d0-d245-4ab1-af0f-a93ce4a2e920",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "caixa som jbl flip 6 bluetooth jbl bluetooth portatil stereo 30w a prova d'agua ipx7",
-            "system_item_id": "6ed2d358-c888-4392-8333-a3d1d36a8a4a",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "df61953a-c81c-4343-801f-f0a9fc208cc4",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "32": [
         {
             "description": "carregador wireless 15w samsung samsung carregador wireless rapido 15w com suporte",
-            "system_item_id": "cc7b3b98-dc99-4e5f-8a53-e48edadbd2df",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "c2f68fe2-a192-4cfe-974c-2d55f69056d3",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "carregador wireless 15w samsung samsung carregador wireless rapido 15w com suporte",
+            "system_item_id": "733729d1-b3ec-44c2-92ee-b35bf08801a6",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "carregador wireless samsung 15w samsung wireless rapido 15w suporte ajustavel led",
-            "system_item_id": "d9cfdcc1-63e7-4d73-81ef-eeec896d99f7",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "f6e9446b-90a9-45f6-94f4-b2bafa741480",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "33": [
         {
             "description": "notebook dell xps 13 dell notebook 13.3\" intel core i7 16gb ram 512gb ssd",
-            "system_item_id": "6bdaa755-1eff-4c51-98c5-57ad98c2cf79",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "46bfed4f-49b6-4672-baf2-f4f0053501a8",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "notebook dell xps 13 dell notebook 13.3\" intel core i7 16gb ram 512gb ssd",
+            "system_item_id": "f2362b54-a160-49e6-844b-4022ea452be2",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "notebook dell xps 13 intel i7 dell 13.3\" intel core i7 16gb ram ssd 512gb tela 4k",
-            "system_item_id": "dc65c5ee-f08b-442c-823e-d8440d1043e6",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "bead1ad7-ff23-4ea4-854b-d3c4da977162",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "34": [
         {
             "description": "monitor dell ultrasharp 27 polegadas dell monitor 27\" 4k ips 99% srgb calibrado",
-            "system_item_id": "75755b46-dd90-4a4c-a404-0dd3d2417f51",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "84a620b1-c3ad-4729-bf2c-58affaa237bb",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "monitor dell ultrasharp 27 polegadas dell monitor 27\" 4k ips 99% srgb calibrado",
+            "system_item_id": "777a05b4-64e4-4d1f-ab3e-b20845192f34",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "monitor dell ultrasharp 27\" 4k dell 27\" 4k ips 99% srgb calibrado fabrica usb-c",
-            "system_item_id": "1db9fbfd-0860-48f2-aec9-a965a9c94da3",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "839af20d-9f6e-4e13-b2b7-64de635b0c2b",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "35": [
         {
             "description": "impressora hp officejet pro hp impressora multifuncional jato de tinta colorida scanner wi-fi",
-            "system_item_id": "916973b0-52de-4586-82af-f635ad5c0f42",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "bb4e7071-6ad0-4ffb-9249-b7721e4e8247",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "impressora hp officejet pro hp impressora multifuncional jato de tinta colorida scanner wi-fi",
+            "system_item_id": "f393970b-1543-41a1-b6dd-fa998e87bcaa",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "impressora hp officejet pro 9015 hp multifuncional jato de tinta colorida scanner wi-fi",
-            "system_item_id": "1ae7a3f1-422f-4ed9-963c-de133e34ab82",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "058ab6cb-cf81-4f8f-9765-8cc43f8f5168",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "36": [
         {
             "description": "mesa escritorio compacta 100cm allma mesa escritorio compacta mdf 100x50cm branca",
-            "system_item_id": "5d959977-e251-4eec-a389-118f09d9713d",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "7ed2834b-b195-4531-baf1-88a49ac06de7",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "mesa escritorio compacta 100cm allma mesa escritorio compacta mdf 100x50cm branca",
+            "system_item_id": "d82c94b6-c622-4eea-ae4a-37d69a3b3e50",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "mesa escritorio compacta 100cm allma allma compacta mdf branca 100cm largura 50cm profundidade",
-            "system_item_id": "9053129c-cde8-4ed2-bce3-d411b4e8c8aa",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "7a77134c-e8c0-4026-ae14-5edba41d36c2",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "37": [
         {
             "description": "cadeira executiva couro allma cadeira executiva revestida em couro sintetico preta",
-            "system_item_id": "e47dda88-cefe-480f-bff1-c995dcebc8bb",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "ff215fd9-fcdb-4085-895d-4a45e4b6a4c3",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "cadeira executiva couro allma cadeira executiva revestida em couro sintetico preta",
+            "system_item_id": "801513a6-94bf-45d6-89f0-01f945cf3a1c",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "cadeira executiva couro sintetico allma executiva revestida couro sintetico preta bracos",
-            "system_item_id": "e8df74f2-5228-4d26-9ece-b85b1e9c94b2",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "d5fd3967-9db6-4e33-8cd5-202f63191b7f",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "38": [
         {
             "description": "teclado sem fio logitech logitech teclado sem fio 2.4ghz padrao abnt2 portugues",
-            "system_item_id": "21d23a55-d3ec-43a3-b90b-f64f17b8b9c2",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "c0fbc44a-0c64-4990-9254-f4b4e0e02fc9",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "teclado sem fio logitech logitech teclado sem fio 2.4ghz padrao abnt2 portugues",
+            "system_item_id": "6ca985a5-7242-4412-8d2f-5ac0e62734a8",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "teclado sem fio logitech 2.4ghz logitech sem fio 2.4ghz padrao abnt2 portugues bateria",
-            "system_item_id": "d52be36b-9d77-487f-8d15-7530aa0d5501",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "e3bbfc4c-bfed-4bea-9b05-74787213c3b3",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "39": [
         {
             "description": "mouse sem fio logitech logitech mouse sem fio 2.4ghz optico 1000dpi",
-            "system_item_id": "52efa25f-c7a5-4831-a906-d64c222d4466",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "7aec94e8-9869-4ec6-90d7-63397df85fc4",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "mouse sem fio logitech logitech mouse sem fio 2.4ghz optico 1000dpi",
+            "system_item_id": "b46511a1-f873-4347-adc8-09d668a2a4bf",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "mouse sem fio logitech 2.4ghz logitech sem fio 2.4ghz optico 1000dpi bateria longa",
-            "system_item_id": "19de21da-52c7-45ab-84d5-68a3590b492a",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "1bbc76f1-ffd2-4de3-89f1-3afb370bbcef",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "40": [
         {
             "description": "hd externo 2tb western digital western digital hd externo usb 3.0 2tb portatil preto",
-            "system_item_id": "519b4b74-b614-40c9-9d1f-1e72e1ba981b",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "86dc4812-862f-40e7-aebc-bf90352abcd4",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "hd externo 2tb western digital western digital hd externo usb 3.0 2tb portatil preto",
+            "system_item_id": "721f6da5-2fdd-4778-b68a-630c057f19c2",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "hd externo wd 2tb usb 3.0 western digital externo portatil usb 3.0 2tb preto compacto",
-            "system_item_id": "0af9f51b-b847-4d36-841a-d92909351ecb",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "ae8ac405-4e57-42be-9cec-cee10dc78f39",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "41": [
         {
             "description": "smartphone xiaomi redmi note 12 xiaomi smartphone 128gb 6gb ram 6.43\" android 12",
-            "system_item_id": "52fe16dd-0df3-45e0-9685-ef2f8d2dd91f",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "3e47eee8-031e-45d3-a1ed-0e7c26fa73b7",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "smartphone xiaomi redmi note 12 xiaomi smartphone 128gb 6gb ram 6.43\" android 12",
+            "system_item_id": "b4b5a084-32e6-4415-b139-2a2a6c731209",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "smartphone redmi note 12 128gb xiaomi xiaomi 128gb 6gb ram 6.43\" amoled android 12 camera",
-            "system_item_id": "4404e728-8876-4374-942d-2838fa0991b8",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "9cb3c9fa-ad1b-474c-90bc-9ed1beff9070",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "42": [
         {
             "description": "fone de ouvido bluetooth xiaomi xiaomi fone de ouvido bluetooth in-ear com case",
-            "system_item_id": "dec9616a-186a-4a14-9906-1d2a7cc9da7d",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "d233ac53-daca-4d23-9df0-f5ee1c5ff86d",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "fone de ouvido bluetooth xiaomi xiaomi fone de ouvido bluetooth in-ear com case",
+            "system_item_id": "55e01cfe-685a-4270-90e4-5e3fe683f1f7",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "fone bluetooth in-ear xiaomi xiaomi bluetooth in-ear com case carregamento carga rapida",
-            "system_item_id": "2f41b90b-37d0-430a-95e8-6e2823b92869",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "7dc0babc-1a93-4fd3-88b9-be6d9e06665c",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "43": [
         {
             "description": "caixa de som bluetooth xiaomi xiaomi caixa de som bluetooth portatil 16w",
-            "system_item_id": "fdb81c9d-1f87-423a-87b9-5b6ef4394f2c",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "ca6fe81f-44b5-4ad1-ba14-600a4a568566",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "caixa de som bluetooth xiaomi xiaomi caixa de som bluetooth portatil 16w",
+            "system_item_id": "1f607b56-1629-4540-b14a-9fd885c74610",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "caixa som bluetooth xiaomi 16w xiaomi bluetooth portatil 16w bateria longa duracao",
-            "system_item_id": "823a2fb6-8a4b-4b07-bd2b-e563c987fd73",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "4d6792f6-b694-427a-9352-dea8bb4ad0ab",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "44": [
         {
             "description": "carregador rapido 33w xiaomi xiaomi carregador rapido usb-c 33w com cabo",
-            "system_item_id": "a1b850b0-bff3-47b4-b7b6-d60ffff88a05",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "7fc8bfb9-6b14-4935-843d-a7fafd73f012",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "carregador rapido 33w xiaomi xiaomi carregador rapido usb-c 33w com cabo",
+            "system_item_id": "255a9149-82c2-466f-a8b8-a4a0f90d7c18",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "carregador rapido xiaomi 33w usb-c xiaomi rapido usb-c 33w com cabo 1m compativel",
-            "system_item_id": "d283675c-4d8e-4293-851c-85f0a76abcef",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "c8d5e218-f116-4993-b737-023a2b81932f",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "45": [
         {
             "description": "notebook asus vivobook 15 asus notebook 15.6\" intel core i5 8gb ram 256gb ssd",
-            "system_item_id": "3497a069-8f9f-48f6-8065-3c09105429fa",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "0541454a-d089-419b-8ddd-b9c222ef674b",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "notebook asus vivobook 15 asus notebook 15.6\" intel core i5 8gb ram 256gb ssd",
+            "system_item_id": "345d4052-13b1-4b31-a63d-ff5306097179",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "notebook asus vivobook 15.6\" intel asus 15.6\" intel core i5 8gb ram ssd 256gb windows 11",
-            "system_item_id": "8a1fa17b-977d-4ca4-9e0b-7c00b10cd835",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "28d7d371-6721-4459-9390-f9072fd20f99",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "46": [
         {
             "description": "monitor asus vg248qe 24 polegadas asus monitor led 24\" full hd 144hz 1ms gaming",
-            "system_item_id": "8226410b-3a74-4fea-a038-ad5df00fc991",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "ceb4a159-6713-4d41-bb45-feab9b03271a",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "monitor asus vg248qe 24 polegadas asus monitor led 24\" full hd 144hz 1ms gaming",
+            "system_item_id": "38e04695-338a-499f-948d-7b2d6fa1c55e",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "monitor asus vg248qe 24\" 144hz asus led 24\" full hd 144hz 1ms resposta gaming freesync",
-            "system_item_id": "b6e0641f-1dd4-4bd7-b126-28ec87890715",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "2abbd823-2b99-4bf9-bb54-109f9891d5eb",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "47": [
         {
             "description": "impressora canon pixma g3010 canon impressora tanque de tinta colorida scanner wi-fi",
-            "system_item_id": "758b56a0-3956-4965-bd95-4ada0e92c197",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "d86cc9df-89cd-47d3-9809-c888b12da794",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "impressora canon pixma g3010 canon impressora tanque de tinta colorida scanner wi-fi",
+            "system_item_id": "82bdcb62-0ff7-453f-a370-66d97395176d",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "impressora canon pixma g3010 tanque canon tanque de tinta colorida scanner wi-fi impressao",
-            "system_item_id": "202616b2-8fec-4293-84cc-994e50302d06",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "d7104895-872e-4a87-8fb6-5905ac52d57f",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "48": [
         {
             "description": "mesa escritorio com gaveta 120cm allma mesa escritorio com gaveta mdf 120x60cm branca",
-            "system_item_id": "0ca2314d-d50a-4984-b206-8e0a8de18331",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "9f873c2f-699a-4911-9034-79a75cd50d22",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "mesa escritorio com gaveta 120cm allma mesa escritorio com gaveta mdf 120x60cm branca",
+            "system_item_id": "0cd92649-f0aa-4ec5-9179-3ff647e439a6",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "mesa escritorio c/ gaveta 120cm allma com gaveta mdf branca 120cm largura 60cm profundidade",
-            "system_item_id": "328388c1-7acb-4eab-ae73-f9085e126530",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "3c812af9-5fc1-4375-9295-9b20ca6a0eba",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "49": [
         {
             "description": "cadeira ergonomica mesh allma cadeira ergonomica mesh preta com apoio lombar ajustavel",
-            "system_item_id": "b53a2d99-8f09-4be5-a5ce-439490730a4e",
-            "origin_file": "ingested_files/20260108215223_exemplo_fornecedor_a.csv"
+            "system_item_id": "3efbb7d4-2fe1-4ffc-af10-ffe3b362c40b",
+            "origin_file": "ingested_files/20260109104033_exemplo_fornecedor_a.pdf"
+        },
+        {
+            "description": "cadeira ergonomica mesh allma cadeira ergonomica mesh preta com apoio lombar ajustavel",
+            "system_item_id": "30b96295-77eb-4b59-9ee9-bfd8396b3e1b",
+            "origin_file": "ingested_files/20260109104104_exemplo_fornecedor_a.csv"
         },
         {
             "description": "cadeira ergonomica mesh allma allma ergonomica mesh preta apoio lombar ajustavel rodizios",
-            "system_item_id": "2d651611-d193-4452-85bd-f7250c086a8f",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "5ea309dc-f5d0-4da0-b7a9-6e54e0989dde",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "50": [
         {
             "description": "monitor lg ultrawide 29 polegadas lg led ultrawide 29\" 2560x1080 hdmi displayport usb-c",
-            "system_item_id": "37fca87d-a2bb-414b-bfd1-e272e7d6b24b",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "cc1e79bb-a0f6-438c-b895-fa939c14ad8d",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ],
     "51": [
         {
             "description": "notebook macbook air m1 13.3\" apple 13.3\" chip m1 8gb ram ssd 256gb tela retina",
-            "system_item_id": "e92eeb13-2bf4-48af-9bf0-1f1d658eb8fc",
-            "origin_file": "ingested_files/20260108215230_exemplo_fornecedor_b.csv"
+            "system_item_id": "bec4b0bc-e2ed-4bc5-9c24-e6c8a9f76caa",
+            "origin_file": "ingested_files/20260109104051_exemplo_fornecedor_b.csv"
         }
     ]
 }

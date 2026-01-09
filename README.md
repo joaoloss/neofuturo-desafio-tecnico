@@ -73,7 +73,7 @@ Dessa forma, o endpoint não apenas permite a correção pontual de um erro, mas
 
 ## 🔄 Fluxo geral do algoritmo
 
-1. Leitura do arquivo estruturado (CSV) e seleção automática das colunas relevantes.
+1. Leitura do arquivo estruturado (CSV ou PDF) e seleção automática das colunas relevantes.
 2. Criação de itens a partir das descrições normalizadas.
 3. Cálculo de similaridade entre o novo item e itens já agrupados.
 4. Atribuição automática a um grupo existente (ou criação de um novo grupo) por meio de métricas de similaridade e, quando necessário, do uso de um modelo de linguagem.  
@@ -86,7 +86,7 @@ Sobre a implementação, o estado global da aplicação é mantido em memória e
 ## 🌐 API
 
 A aplicação expõe uma API REST construída com para:
-- ingestão de arquivos CSV;
+- ingestão de arquivos CSV ou PDF;
 - intervenção humana para correção de grupos;
 - inspeção do estado atual dos agrupamentos.
 
@@ -100,7 +100,7 @@ A aplicação expõe uma API REST construída com para:
   - `pyproject.toml`, `.python-version` e `uv.lock`: arquivos de configuração do ambiente e dependências.
   - `tests.ipynb`: notebook contendo experimentos e resultados a partir dos quais decisões técnicas foram tomadas.
   - `dump/`: diretório utilizado para persistir o estado final dos agrupamentos para inspeção após encerrar a API.
-  - `exemplos/`: arquivos CSV de exemplo, representando catálogos de diferentes fornecedores.
+  - `exemplos/`: arquivos CSV/PDF de exemplo, representando catálogos de diferentes fornecedores (como não foram fornecidos arquivos PDF de exemplo, o PDF ali presente foi criado a partir de um dos CSVs fornecidos).
 
 - **src/**
   - `main.py`: ponto de entrada da aplicação e definição dos endpoints da API.
@@ -108,7 +108,7 @@ A aplicação expõe uma API REST construída com para:
   - `config/`: configurações gerais da aplicação, incluindo *settings*, *logging* e *prompts* utilizados pelo modelo de linguagem.
   - `domain/`: definição das entidades centrais do domínio.
   - `llm/`: abstração e integração com o modelo de linguagem utilizado para decisões semânticas.
-  - `service/`: serviços que encapsulam a lógica de aplicação, como criação de itens a partir de CSVs, agrupamento automático e identificação de itens suspeitos.
+  - `service/`: serviços que encapsulam a lógica de aplicação, como criação de itens a partir de CSVs e PDFs, agrupamento automático e identificação de itens suspeitos.
 
 ## 👨🏻‍💻 Como usar
 

@@ -1,17 +1,30 @@
 import pandas as pd
 from pathlib import Path
+import pdfplumber
 
 from src.config import logger, SELECTING_USEFUL_COLS_PROMPT
 from src.llm import LLM
 from src.domain import Item
 from src import app_state
 
-class CSVItemCreatorService:
-    """Service to create items from a CSV file."""
+class PDFItemCreatorService:
+    """Service to create items from a PDF file."""
 
     @staticmethod
-    async def process_csv_file(file_path: Path) -> list[Item]:
-        df = pd.read_csv(file_path)
+    async def process_pdf_file(file_path: Path) -> list[Item]:
+        tables = list()
+        with pdfplumber.open(file_path) as pdf:
+            for page in pdf.pages:
+                for table in page.extract_tables():
+                    cols = table[0]
+                    content = table[1:]
+                    tables.append(pd.DataFrame(content, columns=cols))
+
+        if not tables:
+            logger.warning(f"No tables found in PDF file: {file_path}")
+            return []
+
+        df = pd.concat(tables, ignore_index=True)
         cols = set(df.columns)
         cols_hash = hash(frozenset(cols))
 

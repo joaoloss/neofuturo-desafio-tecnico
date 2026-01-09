@@ -5,23 +5,28 @@ import os
 from pathlib import Path
 
 from src.config import logger
-from src.service import CSVItemCreatorService, GroupingService, GetSuspiciousItemsService
+from src.service import CSVItemCreatorService, PDFItemCreatorService, GroupingService, GetSuspiciousItemsService
 from . import app_state
 
 storage_path = Path("ingested_files"); os.makedirs(storage_path, exist_ok=True)
 
 async def background_file_processing(file_path: Path) -> None:
-    """Background task to process uploaded CSV file."""
+    """Background task to process uploaded file."""
 
     if file_path.suffix.lower() == ".csv":
         items = await CSVItemCreatorService.process_csv_file(file_path)
+    elif file_path.suffix.lower() == ".pdf":
+        items = await PDFItemCreatorService.process_pdf_file(file_path)
     else:
         logger.warning(f"Unsupported file type for file: {file_path}")
         return
     
-    logger.debug(f"Processing {len(items)} items from file: {file_path}")
-    await GroupingService.group_items(items)
-    logger.debug(f"Completed processing for file: {file_path}")
+    if not items:
+        logger.debug(f"No items created from file: {file_path}")
+    else:
+        logger.debug(f"Processing {len(items)} items from file: {file_path}")
+        await GroupingService.group_items(items)
+        logger.debug(f"Completed processing for file: {file_path}")
         
 async def save_file(uploaded_file: UploadFile) -> Path | None:
     """
